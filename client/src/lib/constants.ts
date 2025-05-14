@@ -116,19 +116,19 @@ export const NAVBAR_HEIGHT = 52; // in pixels
 // Test users for development
 export const testUsers = {
   tenant: {
-    username: "Carol White",
+    username: "Ravi Kumar",
     userId: "us-east-2:76543210-90ab-cdef-1234-567890abcdef",
     signInDetails: {
-      loginId: "carol.white@example.com",
+      loginId: "ravi.kumar@example.com",
       authFlowType: "USER_SRP_AUTH",
     },
   },
   tenantRole: "tenant",
   manager: {
-    username: "John Smith",
+    username: "Anjali Gowda",
     userId: "us-east-2:12345678-90ab-cdef-1234-567890abcdef",
     signInDetails: {
-      loginId: "john.smith@example.com",
+      loginId: "anjali.gowda@example.com",
       authFlowType: "USER_SRP_AUTH",
     },
   },

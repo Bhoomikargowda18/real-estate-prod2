@@ -200,7 +200,7 @@ export const createProperty = async (
       address,
       city,
       state,
-      country,
+      country = "India",
       postalCode,
       managerCognitoId,
       ...propertyData
@@ -228,7 +228,7 @@ export const createProperty = async (
       {
         street: address,
         city,
-        country,
+        country: "India",
         postalcode: postalCode,
         format: "json",
         limit: "1",
